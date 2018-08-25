@@ -2,10 +2,8 @@ document.getElementById("kmInput").addEventListener('input', function(e) {
     let km = e.target.value;
 
     document.getElementById("metresOutput").innerHTML = km * 1000;
-    console.log(km);
-});
-document.getElementById("kmInput").addEventListener('input', function(e) {
+    document.getElementById("metresOutput").innerHTML = km * 1000;
+    document.getElementById("metresOutput").innerHTML = km * 1000;
 
-    let ml = e.target.value;
-    console.log(ml);
+    console.log(km);
 });

@@ -3,6 +3,9 @@ body {
     background: #333;
     color: #fff;
 }
+form {
+    margin: 5px 0;
+}
 .card-block {
     padding: 10px;
 }

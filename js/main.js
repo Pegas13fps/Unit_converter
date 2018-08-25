@@ -4,3 +4,8 @@ document.getElementById("kmInput").addEventListener('input', function(e) {
     document.getElementById("metresOutput").innerHTML = km * 1000;
     console.log(km);
 });
+document.getElementById("kmInput").addEventListener('input', function(e) {
+
+    let ml = e.target.value;
+    console.log(ml);
+});
